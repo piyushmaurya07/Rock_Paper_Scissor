@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(bg_image/image.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+#container {
+  text-align: center;
+}
+#game {
+  font-size: 3em;
+  color: rgb(14, 13, 22);
+}
+
+.score {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.score-elements {
+  margin: 20px;
+  font-size: 1.4rem;
+}
+.score-display {
+  border: none;
+  background-color: rgb(129, 198, 25);
+  width: 20px;
+  font-size: small;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-style: oblique;
+}
+
+.btn:hover {
+  background-color: plum;
+}
+
+#display {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  width: 300px;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
